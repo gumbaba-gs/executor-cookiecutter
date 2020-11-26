@@ -5,7 +5,7 @@
         "Seed" : "{{cookiecutter.account_seed}}"
         {% if cookiecutter.account_type == "aws"  %}
         ,
-        "AWSId" : "{{cookiecutter.aws_account_id}}"
+        "ProviderId" : "{{cookiecutter.provider_account_id}}"
         {% endif %}
     }
 }
